@@ -39,6 +39,8 @@ export default function RootLayout({ children }) {
 				<meta
 					property="og:image"
 					content="https://lemon-studios.ca/logo.png"
+					width="64"
+					height="64"
 				/>
 
 				{/* Twitter Meta Tags */}
@@ -65,6 +67,8 @@ export default function RootLayout({ children }) {
 				<meta
 					name="twitter:image"
 					content="https://lemon-studios.ca/logo.png"
+					width="64"
+					height="64"
 				/>
 			</head>
 			<body className={jost.className}>{children}</body>
