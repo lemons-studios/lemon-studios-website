@@ -27,6 +27,7 @@ export default class Home extends React.Component {
 						Self-Proclaimed Indie game studio created by{""}
 						<Link
 							href={"https://github.com/Shob3r"}
+							target="_blank"
 							className="hover:bg-gray-900 transition rounded-md p-0.5 mx-0.5"
 						>
 							@Shob3r
@@ -35,6 +36,7 @@ export default class Home extends React.Component {
 						Currently developing
 						<Link
 							href={"https://github.com/lemons-studios/Mission-Monkey"}
+							target="_blank"
 							className="hover:bg-gray-900 transition rounded-md p-0.5 mx-0.5"
 						>
 							Mission: Monkey
