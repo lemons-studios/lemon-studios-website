@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
 				/>
 				<meta
 					property="og:image"
-					content="https://lemon-studios.ca/logo.png"
+					content="https://lemon-studios.ca/logo64.png"
 					width="64"
 					height="64"
 				/>
@@ -66,7 +66,7 @@ export default function RootLayout({ children }) {
 				/>
 				<meta
 					name="twitter:image"
-					content="https://lemon-studios.ca/logo.png"
+					content="https://lemon-studios.ca/logo64.png"
 					width="64"
 					height="64"
 				/>

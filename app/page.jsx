@@ -17,7 +17,7 @@ export default class Home extends React.Component {
 			<main className="flex min-h-screen flex-col items-center justify-between p-24">
 				<div className="flex flex-col items-center space-y-4">
 					<Image
-						src={"/icon-outline.svg"}
+						src={"/logo-outline.svg"}
 						width={128}
 						height={128}
 						className="drop-shadow-[0_0_10px_#fff8]"
