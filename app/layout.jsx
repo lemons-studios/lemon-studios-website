@@ -19,9 +19,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <div className="p-2">
+          <div className="grid h-11 p-2.5 rounded-full bg-linear-to-bl from-violet-500 to-fuchsia-500">
+            <h1>App Naviation Placeholder</h1>
+          </div>
+        </div>
         {children}
       </body>
     </html>
