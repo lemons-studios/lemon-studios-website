@@ -1,5 +1,15 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Poppins } from "next/font/google";
 import "./globals.css";
+
+const poppinsSemiBold = Poppins({
+  subsets: ["latin"],
+  weight: '600'
+});
+
+const poppinsLight = Poppins({
+  subsets: ["latin"],
+  weight: '400'
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -19,10 +29,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+      <body className={`${poppinsLight.className} ${poppinsSemiBold.className} antialiased`}>
         <div className="p-2">
-          <div className="grid h-11 p-2.5 rounded-full bg-linear-to-bl from-violet-500 to-fuchsia-500">
-            <h1>App Naviation Placeholder</h1>
+          <div className="grid h-11 p-2.5 rounded-md bg-gray-700">
+            <a href="https://lemon-studios.ca">Lemon Studios</a>
           </div>
         </div>
         {children}
